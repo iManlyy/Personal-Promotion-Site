@@ -1,0 +1,12 @@
+.contentOfPageA {
+	margin: 0 0 0 20px;
+}
+.whoAmISection h3 {
+	width: fit-content;
+	border-bottom: 2px solid #2378EB;
+	border-radius: 1px 1px 10px 1px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}

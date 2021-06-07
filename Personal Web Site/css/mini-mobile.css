@@ -1,0 +1,30 @@
+.imgOfContent h1 {
+	word-spacing: 10px;
+	width: 200px;
+}
+.navOfContent ul li {
+	font-size: 13px;
+	font-weight: bold;
+}
+.projectPermText {
+	font-size: 12.5px;
+	width: 63%;
+	left: 36%;
+	height: auto;
+}
+.projectPlaceItems img {
+	margin-right: 10px;
+}
+.projectItemsText {
+	font-size: 12px;
+}
+.projectBoxForL {
+	font-size: 14px;
+	padding: 5px;
+}
+.topOfProjectForL img {
+	margin-right: 10px;
+}
+.topOfProjectForL hr {
+	display: none;
+}

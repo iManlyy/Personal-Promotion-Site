@@ -1,0 +1,68 @@
+.imgOfContent {
+	height: 380px;	
+}
+.imgOfContent h1 {
+	font-size: 55px;
+}
+.imgOfContent p {
+	font-size: 25px;
+}
+.projectPermText {
+	left: 18.8%;
+	width: 40%;
+}
+.projectPlaceItems {
+	margin-bottom: 10px;
+	margin-right: 0;
+	width: 100%;
+}
+.projectPlaceItems hr {
+	width: 1px;
+}
+.myProjects {
+	width: 90%;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.projectMoreBttn {
+	margin: auto;
+}
+.careerAboutPlace {
+	flex-direction: column;
+}
+.careerPlace {
+	width: 70%;
+    margin: 0 auto 40px 20px;
+}
+.careerPlaceItems {
+	width: 100%;
+}
+.aboutPlace {
+	width: 70%;
+    margin: 0 auto 0 20px;
+}
+.aboutPlaceItems {
+    width: 100%;
+}
+.aboutHead h1 {
+	border-right: 0;
+    border-left: 2px solid #2378EB;
+    padding-left: 10px;
+    margin: 0 auto 10px 0;
+    border-radius: 1px;
+}
+.projectBoxForL {
+	height: 160px;
+	justify-content: space-between;
+}
+.projectSite h4 {
+}
+.projectBoxForL p {
+	margin: 0 0 0 5px;
+}
+.projectBoxForL .projectDetail {
+	width: 30%;
+}
+.projectBoxForL .projectDate {
+	max-width: 12.5%;
+}

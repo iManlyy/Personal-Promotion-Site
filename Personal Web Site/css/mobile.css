@@ -1,0 +1,133 @@
+#backTopButton {
+	border: 1px solid #2378EB;
+}
+#backTopButton:hover {
+	box-shadow: -1px -1px 1px #2378EB;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.headerSocialMedia {
+	margin: auto;
+	margin-bottom: 14px;
+	width: 124px;
+}
+#hsmInHeader {
+	display: none;
+}
+#hsmInDd {
+	display: block;
+}
+.headerSocialMediaLinks {
+	margin: 0 1px 0 1px;
+}
+.headerDropdownMenu {
+	top: 60px;
+	padding: 10px 12px 0px 12px;
+}
+.headerDdMenuPlace {
+	margin-left: auto;
+}
+.imgOfContent {
+	height: 255px;
+	background-size: 150%;
+	background-position: -200px -20px;
+}
+.imgOfContent h1 {
+	word-spacing: 15px;
+}
+.navOfContent {
+	justify-content: center;
+	margin: 15px 0 25px 0;
+}
+.projectPlaceItems:hover {
+    box-shadow: 0 0 1px #2378EB;
+    transition: 0.3s;
+}
+.projectPermText {
+	left: 35%;
+}
+.projectPlaceItems {
+	padding: 5px;
+}
+.projectPlaceItems img {
+	width: 100px;
+}
+.projectPlaceItems hr {
+	display: none;
+}
+.projectItemsText {
+	font-size: 13px;
+}
+.careerAboutPlace {
+	width: 99%;
+}
+.careerPlace {
+	width: 100%;
+}
+.careerPlaceItems:hover {
+    box-shadow: 0 0 1px #2378EB;
+    transition: 0.3s;
+}
+.aboutPlace {
+	width: 100%;
+}
+.aboutPlaceItems:hover {
+	box-shadow: 0 0 1px #2378EB;
+    transition: 0.3s;
+}
+.footerOfPage {
+	height: 250px;
+	flex-direction: row;
+}
+.footerOfPage nav {
+	font-size: 15px;
+	flex-direction: column;
+	justify-content: center;
+}
+.footerOfPage nav h3 {
+	border-left: 0;
+	margin-bottom: 20px;
+}
+.footerOfPage nav ul {
+	flex-direction: column;
+}
+.footerOfPage nav ul li {
+	margin-bottom: 10px;
+}
+.projectBox:hover {
+	box-shadow: 0 0 1px #2378EB;
+    transition: 0.3s;
+}
+.projectBoxForL:hover {
+    box-shadow: 0 0 1px #2378EB;
+    transition: 0.3s;
+}
+.projectBoxForL:hover .projectSite h4 {
+	border-top: 1px solid #2378EB;
+	transition: 0.3s;
+}
+.projectSite h4 {
+	border-top: 1px solid #2378EB;
+}
+.projectBox {
+	width: 100%;
+	margin: 0 5px 10px 0;
+}
+.projectBoxForL {
+	font-size: 15px;
+}
+.topOfProject hr {
+	width: 1px;
+}
+.topOfProjectForL hr {
+	width: 1px;
+}
+.projectBoxForL .projectDetail {
+	width: 100%;
+}
+.projectBoxForL .projectDate {
+	width: 100%;
+}
+.topOfEdu, .topOfJob {
+	border-bottom: 1px solid #2378EB;
+}

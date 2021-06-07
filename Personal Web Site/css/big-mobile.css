@@ -1,0 +1,47 @@
+.projectPlace {
+	margin-left: 5px;
+}
+.projectPermText {
+	font-size: 13px;
+	width: 50%;
+	left: 30.5%;
+}
+.myProjects {
+	width: 100%;
+}
+.projectItemsText {
+	font-size: 13.5px;
+}
+.careerPlace {
+	width: 90%;
+	margin-left: 5px;
+}
+.aboutPlace {
+	width: 90%;
+	margin-left: 5px;
+}
+.footerOfPage {
+	padding: 10px;
+}
+.footerOfPage nav h3 {
+    font-size: 18px;
+    padding-left: 5px;
+}
+.navInFooter ul li {
+    margin-right: 10px;
+}
+.footerSocialMedia ul li {
+    margin-right: 10px;
+}
+.contentOfPage {
+	margin: 10px 0 0 5px;
+}
+.projectBox {
+	width: 70%;
+}
+.thankSection {
+	margin: 0 0 0 5px;
+}
+.contentOfPageA {
+	margin: 0 0 0 5px;
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<!-- • Header Of Web Site • -->
+	<title>Mert Yılmaz ~ Web Designer / Student ~ Kariyer</title>
+	<!-- • Unicode • -->
+	<meta charset="utf-8">
+	<!-- • Screen Size • -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- • Description And Keywords Of The Page • -->
+	<meta name="description" content="Mert Yılmaz'ın kendisini anlattığı kişisel sitesine hoşgeldiniz. Mert'in hakkında bilgi edinebilmek ve yararlanabilmek için sitemizi keşfedebilirsiniz.">
+	<!-- • ••• • -->
+	<meta name="keywords" content="Mert, Yılmaz, Mert Yılmaz, biyografi, otobiyografi, site, hayat, landing, kişisel, kariyer, hakkında, personal, web, biography, autobiography, özgeçmiş, cv, resume, iş, job, özel, iletişim, contact, special, one page, geçmiş, sitesi, kişi, kişiye özel">
+	<!-- • Coder • -->
+	<meta name="author" content="Mert Yılmaz">
+	<!-- • Icon Of The Page • -->
+	<link rel="shortcut icon" href="../icon/favicon.png" type="image/x-icon">
+	<!-- • Icons • -->
+	<link rel="stylesheet" type="text/css" href="../font-awesome/css/fontawesome.css">
+	<link rel="stylesheet" type="text/css" href="../font-awesome/css/all.css">
+	<!-- • CSS Files • -->
+	<link rel="stylesheet" type="text/css" href="../css/other-pages.css">
+	<link rel="stylesheet" type="text/css" href="../css/career.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/global.css">
+	<!-- • Other Platforms • -->
+	<link rel="stylesheet" media="(max-width:1000px)" type="text/css" href="../css/big-tablet.css">
+	<link rel="stylesheet" media="(max-width:776px)" type="text/css" href="../css/tablet.css">
+	<link rel="stylesheet" media="(max-width:710px)" type="text/css" href="../css/mini-tablet.css">
+	<link rel="stylesheet" media="(max-width:576px)" type="text/css" href="../css/big-mobile.css">
+	<link rel="stylesheet" media="(max-width:500px)" type="text/css" href="../css/mobile.css">
+	<link rel="stylesheet" media="(max-width:421px)" type="text/css" href="../css/mini-mobile.css">
+	<link rel="stylesheet" media="(max-width:365px)" type="text/css" href="../css/very-mini-mobile.css">
+</head>
+<body>
+	<!-- • Primary Color • #2378EB • And Shades • -->
+	<!-- • #C6DFFF • #A0D5FF • #84BEF0 • #6BA4EE • #1C5FB8 • #164B91 • #10386B • #172333 • #040D1A • -->
+	<!-- • ••• • -->
+	<!-- • ••• • -->
+	<!-- • TOP OF THE PAGE • -->
+	<div class="page">
+		<!-- • BACK TO TOP BUTTON • -->
+		<button onclick="topFunction()" id="backTopButton"><i class="fas fa-caret-up fa-2x"></i></button>
+		<!-- • BACKGROUND OF HEADER(FOR BORDER RADIUS) • -->
+		<div class="headerBackground"></div>
+		<!-- • HEADER • -->
+		<header class="headerOfPage" onmouseenter="document.getElementById('ppOwner').src='../img/mertpp65.png'" onmouseleave="document.getElementById('ppOwner').src='../img/mertpp.png'">
+			<!-- • BORDER TO THE LEFT OF THE PROFILE PHOTO • -->
+			<hr class="headerLeftBorder">
+			<!-- • PROFILE PHOTO • -->
+			<img id="ppOwner" class="profilePhoto" src="../img/mertpp.png" width="50">
+			<!-- • OWNER NAME AND BOTTOM BORDER • -->
+			<h3 class="ownersName">
+				<a href="index.html">Mert Yılmaz</a> <hr class="ownersNameBorder">
+			</h3>
+			<!-- • SOCIAL MEDIA LINKS IN HEADER • -->
+			<nav id="hsmInHeader" class="headerSocialMedia">
+				<a class="headerSocialMediaLinks" target="_blank" href="https://twitter.com/benmertyz"><i class="fab fa-twitter-square"></i></a>
+				<a class="headerSocialMediaLinks" target="_blank" href="https://www.instagram.com/mert.ylmzlr/"><i class="fab fa-instagram-square"></i></a>
+				<a class="headerSocialMediaLinks" target="_blank" href="https://github.com/iManlyy"><i class="fab fa-github-square"></i></a>
+				<a class="headerSocialMediaLinks" target="_blank" href="https://www.linkedin.com/in/mert-yılmaz-b13090211"><i class="fab fa-linkedin"></i></a>
+			</nav>
+			<!-- • DOWN ARROW OF HEADER • -->
+			<div class="headerDownArrow">
+				<i class="fas fa-angle-down fa-lg"></i>
+			</div>
+			<!-- • MENU IN HEADER • -->
+			<nav class="navInHeader">
+				<ul>
+					<li><a href="projects.html">Projelerim</a></li>
+					<li><a href="career.html">Kariyerim</a></li>
+					<li><a href="about.html">Hakkımda</a></li>
+				</ul>
+			</nav>
+			<!-- • POP-UP MENU FOR MOBILE • -->
+			<nav class="headerDdMenuPlace">
+				<i onclick="gizleGoster('ddMenu');" class="fas fa-bars"></i>
+				<ul id="ddMenu" class="headerDropdownMenu" style="display: none;">
+					<li>
+						<nav id="hsmInDd" class="headerSocialMedia">
+							<a class="headerSocialMediaLinks" target="_blank" href="https://twitter.com/benmertyz"><i class="fab fa-twitter-square fa-lg"></i></a>
+							<a class="headerSocialMediaLinks" target="_blank" href="https://www.instagram.com/mert.ylmzlr/"><i class="fab fa-instagram-square fa-lg"></i></a>
+							<a class="headerSocialMediaLinks" target="_blank" href="https://github.com/iManlyy"><i class="fab fa-github-square fa-lg"></i></a>
+							<a class="headerSocialMediaLinks" target="_blank" href="https://www.linkedin.com/in/mert-yılmaz-b13090211"><i class="fab fa-linkedin fa-lg"></i></a>
+						</nav>
+					</li>
+					<li class="hDropdownMenuItems"><a href="projects.html">Projelerim <i class="fas fa-project-diagram fa-sm"></i></a></li>
+					<li class="hDropdownMenuItems"><a href="career.html">Kariyerim <i class="fas fa-briefcase fa-sm"></i></a></li>
+					<li class="hDropdownMenuItems"><a href="about.html">Hakkımda <i class="fas fa-user-tie fa-sm"></i></a></li>
+				</ul>
+			</nav>
+			<!-- • END OF POP-UP MENU • -->
+		</header>
+		<!-- • /HEADER • -->
+		<!-- • ••• • -->
+		<!-- • ••• • -->
+		<section class="contentOfPageC">
+			<!-- • EDUCATION SECTION IN PAGE • -->
+			<section class="eduSection">
+				<!-- • HEAD OF THE EDUCATION SECTION • -->
+				<div class="topOfEdu">
+					<h2>Eğitim</h2>
+				</div>
+				<!-- • CONTENT OF THE EDUCATION SECTION • -->
+				<article class="contentOfEdu">
+					<ul>
+						<li class="headOfEduLi">&#9686 Okul &#9687</li>
+						<li>Ahi Evran Mesleki Ve Teknik Anadolu Lisesi'nde, Bilişim alanının, Web Programcılığı dalında 3 sene süren eğitim.</li>
+						<li class="headOfEduLi">&#9686 Online Kurslar &#9687</li>
+						<li>BTK Akademi ve Udemy gibi online kurs hizmeti sunan programlarda gördüğüm eğitim.</li>
+						<li class="headOfEduLi">&#9686 Rehberler &#9687</li>
+						<li>İnternet ortamında ücretsiz olarak sunulan, herkese açık bilgilendirme siteleri. (W3Schools vb.)</li>
+					</ul>
+				</article>
+			</section>
+			<!-- • JOB SECTION IN PAGE • -->
+			<section class="jobSection">
+				<div class="topOfJob">
+					<h2>İş Ortamı</h2>
+				</div>
+				<article class="contentOfJob">
+					<ul>
+						<li class="headOfJobLi"> Deneyim Yok </li>
+					</ul>
+				</article>
+			</section>
+			<!-- • THANKS LETTER SECTION IN PAGE • -->
+			<section class="thankSection">
+				<h3>Teşekkürler</h3>
+				<p>- Bu zamana kadar gelişmemde fayda sağlayan her bir şahsa, kaynağa ve eğitmene sonsuz teşekkürler.</p>
+			</section>
+		</section>		
+		<!-- • ••• • -->
+		<!-- • ••• • -->
+		<!-- • FOOTER • -->
+		<footer class="footerOfPage">
+			<!-- • FIRST SECTION OF FOOTER • -->
+			<nav class="navInFooter">
+				<h3>Menüler</h3>
+				<ul>
+					<li><a href="index.html">Anasayfa</a></li>
+					<li><a href="projects.html">Projelerim</a></li>
+					<li><a href="career.html">Kariyerim</a></li>
+					<li><a href="about.html">Hakkımda</a></li>
+				</ul>
+			</nav>
+			<!-- • SECOND SECTION OF FOOTER • -->
+			<nav class="footerSocialMedia">
+				<h3>İletişimde Kalın</h3>
+				<ul>
+					<li><a target="_blank" href="https://twitter.com/benmertyz"><i class="fab fa-twitter-square fa-lg"></i></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/mert.ylmzlr/"><i class="fab fa-instagram-square fa-lg"></i></a></li>
+					<li><a target="_blank" href="https://github.com/iManlyy"><i class="fab fa-github-square fa-lg"></i></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/mert-yılmaz-b13090211"><i class="fab fa-linkedin fa-lg"></i></a></li>
+				</ul>
+			</nav>
+		</footer>
+		<!-- • /FOOTER • -->
+		<!-- • ••• • -->
+		<!-- • ••• • -->
+		<!-- • DESIGNED PERSON INFORMATION • -->
+		<div class="designedOfPage">
+			<i class="fas fa-info"></i> Designed By Mert Yılmaz
+		</div>
+		<!-- • END OF DESIGNED PERSON INFORMATION • -->
+	</div>
+	<!-- • END OF THE PAGE • -->
+	<!-- • ••• • -->
+	<!-- • ••• • -->
+	<script type="text/javascript">
+		/* • For Dropdown Menu • */
+		function gizleGoster(ID) {
+  var secilenID = document.getElementById(ID);
+  if (secilenID.style.display == "none") {
+    secilenID.style.display = "block";
+  } else {
+    secilenID.style.display = "none";
+  }
+}
+		/* • For Hide/Show • */
+		function gizle(ID) {
+			var z = document.getElementById(ID);
+			z.style.display = "none";
+		}
+		function goster(ID) {
+			var x = document.getElementById(ID);
+			x.style.display = "block";
+		}
+		/* • For Back To Top Button • */
+		var mybutton = document.getElementById("backTopButton");
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+	</script>
+</body>
+</html>

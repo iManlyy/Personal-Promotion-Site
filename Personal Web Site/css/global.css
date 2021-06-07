@@ -1,0 +1,46 @@
+/* • Codes for size and placement • */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* • Text • */
+.text-center {
+    text-align: center;
+}
+
+/* • Flex • */
+.display-flex {
+    display: flex;
+}
+
+.fDirection-row {
+    flex-direction: row;
+}
+.fDirection-column {
+    flex-direction: column;
+}
+
+.vAlign-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+
+/* • Links • */
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+/* • UL Menu • */
+ul {
+    list-style-type: none;
+}
+
+/* • Ready-Made Layouts • */
+.headerContainer {
+    max-width: 1200px;
+    margin: auto;
+}

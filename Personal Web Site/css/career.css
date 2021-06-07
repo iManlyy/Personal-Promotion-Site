@@ -1,0 +1,51 @@
+.contentOfPageC {
+	margin: 30px 0 0 0;
+}
+.eduSection, .jobSection {
+	border-bottom: 1px solid #d5d5d5;
+	border-radius: 1px;
+}
+.eduSection:hover, .jobSection:hover {
+	border-bottom: 1px solid #767676;
+	transition: 0.3s;
+}
+.jobSection {
+	margin: 50px 0 60px 0;
+	padding: 0 0 10px 0;
+}
+.topOfEdu, .topOfJob {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	margin: 0 0 10px 0;
+	border-bottom: 2px solid #2378EB;
+	border-radius: 20px;
+}
+.contentOfEdu ul, .contentOfJob ul {
+	padding: 0;
+	margin: 0;
+}
+.contentOfEdu ul li, .contentOfJob ul li {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin: 0 0 10px 0;
+}
+.headOfEduLi, .headOfJobLi {
+	margin: 0 auto 5px auto !important;
+	width: fit-content;
+	font-weight: bold;
+	border-bottom: 1px solid #d5d5d5;
+	padding: 0 0 5px 0;
+}
+.thankSection {
+	margin: 0 0 0 20px;
+}
+.thankSection h3 {
+	border-left: 2px solid #2378EB;
+	border-radius: 1px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}

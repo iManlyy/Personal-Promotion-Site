@@ -1,0 +1,100 @@
+.headerOfPage {
+	position: static;
+	font-size: 21px;
+	padding-right: 5px;
+	box-shadow: 0px 1px 2px #2378EB;
+}
+.headerOfPage:hover {
+	height: 70px;
+}
+.headerLeftBorder {
+	height: 40px;
+}
+.headerOfPage:hover .headerLeftBorder {
+	height: 40px;
+}
+.headerOfPage:hover .profilePhoto {
+	width: 50px;
+}
+.ownersNameBorder {
+	width: 180px;
+	margin-top: 10px;
+}
+.headerOfPage:hover .headerSocialMedia {
+	border: 0;
+	border-bottom-left-radius: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+.headerSocialMedia {
+	margin-left: auto;
+    margin-top: 0;
+    width: 55px;
+}
+.headerSocialMediaLinks {
+	padding-top: 0;
+	margin: 3px;
+	color: white !important;
+}
+.headerSocialMediaLinks:hover {
+	border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border: 0;
+}
+.headerDownArrow {
+	display: none;
+}
+.navInHeader {
+	width: 340px;
+}
+.navInHeader ul {
+	width: 340px;
+}
+.navInHeader ul li {
+	padding-right: 0px;
+}
+.navInHeader ul li:hover {
+	border: 0;
+}
+.imgOfContent {
+	height: 350px;
+	background-position: 0 0;
+}
+.imgOfContent h1 {
+	font-size: 45px;
+}
+.imgOfContent:hover h1 {
+    color: white;
+}
+.imgOfContent p {
+	font-size: 20px;
+}
+.projectPermText {
+	width: 45%;
+	left: 24%;
+}
+.myProjects {
+	width: 95%;
+}
+.careerPlace {
+	width: 80%;
+}
+.careerPlaceItems {
+	width: 100%;
+}
+.aboutPlace {
+	width: 80%;
+}
+.projectBoxForL {
+	flex-direction: column;
+	height: auto;
+}
+.projectBoxForL p {
+	margin: 15px 0 0 0;
+}
+.projectBoxForL .projectDetail {
+	width: 50%;
+}
+.projectBoxForL .projectDate {
+	max-width: 50%;
+}

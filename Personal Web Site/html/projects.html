@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<!-- • Header Of Web Site • -->
+	<title>Mert Yılmaz ~ Web Designer / Student ~ Projeler</title>
+	<!-- • Unicode • -->
+	<meta charset="utf-8">
+	<!-- • Screen Size • -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- • Description And Keywords Of The Page • -->
+	<meta name="description" content="Mert Yılmaz'ın kendisini anlattığı kişisel sitesine hoşgeldiniz. Mert'in hakkında bilgi edinebilmek ve yararlanabilmek için sitemizi keşfedebilirsiniz.">
+	<!-- • ••• • -->
+	<meta name="keywords" content="Mert, Yılmaz, Mert Yılmaz, biyografi, otobiyografi, site, hayat, landing, kişisel, kariyer, hakkında, personal, web, biography, autobiography, özgeçmiş, cv, resume, iş, job, özel, iletişim, contact, special, one page, geçmiş, sitesi, kişi, kişiye özel">
+	<!-- • Coder • -->
+	<meta name="author" content="Mert Yılmaz">
+	<!-- • Icon Of The Page • -->
+	<link rel="shortcut icon" href="../icon/favicon.png" type="image/x-icon">
+	<!-- • Icons • -->
+	<link rel="stylesheet" type="text/css" href="../font-awesome/css/fontawesome.css">
+	<link rel="stylesheet" type="text/css" href="../font-awesome/css/all.css">
+	<!-- • CSS Files • -->
+	<link rel="stylesheet" type="text/css" href="../css/other-pages.css">
+	<link rel="stylesheet" type="text/css" href="../css/projects.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/global.css">
+	<!-- • Other Platforms • -->
+	<link rel="stylesheet" media="(max-width:1000px)" type="text/css" href="../css/big-tablet.css">
+	<link rel="stylesheet" media="(max-width:776px)" type="text/css" href="../css/tablet.css">
+	<link rel="stylesheet" media="(max-width:710px)" type="text/css" href="../css/mini-tablet.css">
+	<link rel="stylesheet" media="(max-width:576px)" type="text/css" href="../css/big-mobile.css">
+	<link rel="stylesheet" media="(max-width:500px)" type="text/css" href="../css/mobile.css">
+	<link rel="stylesheet" media="(max-width:421px)" type="text/css" href="../css/mini-mobile.css">
+	<link rel="stylesheet" media="(max-width:365px)" type="text/css" href="../css/very-mini-mobile.css">
+</head>
+<body>
+	<!-- • Primary Color • #2378EB • And Shades • -->
+	<!-- • #C6DFFF • #A0D5FF • #84BEF0 • #6BA4EE • #1C5FB8 • #164B91 • #10386B • #172333 • #040D1A • -->
+	<!-- • ••• • -->
+	<!-- • ••• • -->
+	<!-- • TOP OF THE PAGE • -->
+	<div class="page">
+		<!-- • BACK TO TOP BUTTON • -->
+		<button onclick="topFunction()" id="backTopButton"><i class="fas fa-caret-up fa-2x"></i></button>
+		<!-- • BACKGROUND OF HEADER(FOR BORDER RADIUS) • -->
+		<div class="headerBackground"></div>
+		<!-- • HEADER • -->
+		<header class="headerOfPage" onmouseenter="document.getElementById('ppOwner').src='../img/mertpp65.png'" onmouseleave="document.getElementById('ppOwner').src='../img/mertpp.png'">
+			<!-- • BORDER TO THE LEFT OF THE PROFILE PHOTO • -->
+			<hr class="headerLeftBorder">
+			<!-- • PROFILE PHOTO • -->
+			<img id="ppOwner" class="profilePhoto" src="../img/mertpp.png" width="50">
+			<!-- • OWNER NAME AND BOTTOM BORDER • -->
+			<h3 class="ownersName">
+				<a href="index.html">Mert Yılmaz</a> <hr class="ownersNameBorder">
+			</h3>
+			<!-- • SOCIAL MEDIA LINKS IN HEADER • -->
+			<nav id="hsmInHeader" class="headerSocialMedia">
+				<a class="headerSocialMediaLinks" target="_blank" href="https://twitter.com/benmertyz"><i class="fab fa-twitter-square"></i></a>
+				<a class="headerSocialMediaLinks" target="_blank" href="https://www.instagram.com/mert.ylmzlr/"><i class="fab fa-instagram-square"></i></a>
+				<a class="headerSocialMediaLinks" target="_blank" href="https://github.com/iManlyy"><i class="fab fa-github-square"></i></a>
+				<a class="headerSocialMediaLinks" target="_blank" href="https://www.linkedin.com/in/mert-yılmaz-b13090211"><i class="fab fa-linkedin"></i></a>
+			</nav>
+			<!-- • DOWN ARROW OF HEADER • -->
+			<div class="headerDownArrow">
+				<i class="fas fa-angle-down fa-lg"></i>
+			</div>
+			<!-- • MENU IN HEADER • -->
+			<nav class="navInHeader">
+				<ul>
+					<li><a href="projects.html">Projelerim</a></li>
+					<li><a href="career.html">Kariyerim</a></li>
+					<li><a href="about.html">Hakkımda</a></li>
+				</ul>
+			</nav>
+			<!-- • POP-UP MENU FOR MOBILE • -->
+			<nav class="headerDdMenuPlace">
+				<i onclick="gizleGoster('ddMenu');" class="fas fa-bars"></i>
+				<ul id="ddMenu" class="headerDropdownMenu" style="display: none;">
+					<li>
+						<nav id="hsmInDd" class="headerSocialMedia">
+							<a class="headerSocialMediaLinks" target="_blank" href="https://twitter.com/benmertyz"><i class="fab fa-twitter-square fa-lg"></i></a>
+							<a class="headerSocialMediaLinks" target="_blank" href="https://www.instagram.com/mert.ylmzlr/"><i class="fab fa-instagram-square fa-lg"></i></a>
+							<a class="headerSocialMediaLinks" target="_blank" href="https://github.com/iManlyy"><i class="fab fa-github-square fa-lg"></i></a>
+							<a class="headerSocialMediaLinks" target="_blank" href="https://www.linkedin.com/in/mert-yılmaz-b13090211"><i class="fab fa-linkedin fa-lg"></i></a>
+						</nav>
+					</li>
+					<li class="hDropdownMenuItems"><a href="projects.html">Projelerim <i class="fas fa-project-diagram fa-sm"></i></a></li>
+					<li class="hDropdownMenuItems"><a href="career.html">Kariyerim <i class="fas fa-briefcase fa-sm"></i></a></li>
+					<li class="hDropdownMenuItems"><a href="about.html">Hakkımda <i class="fas fa-user-tie fa-sm"></i></a></li>
+				</ul>
+			</nav>
+			<!-- • END OF POP-UP MENU • -->
+		</header>
+		<!-- • /HEADER • -->
+		<!-- • ••• • -->
+		<!-- • ••• • -->
+		<section class="contentOfPage">
+			<!-- • VIEW TYPE - GALLERY VIEW OR LIST VIEW • -->
+			<div class="viewType">
+				<h3>Görünüm Tipi</h3>
+				<button id="viewG" onclick="viewActiveG()" class="viewGallery viewActive"><i class="fas fa-th-large"></i></button>
+				<button id="viewL" onclick="viewActiveL()" class="viewList"><i class="fas fa-th-list"></i></button>
+			</div>
+			<!-- • BOX FOR ALL PROJECTS • -->
+			<section class="allProjects">
+				<!-- • BOX FOR ONE PROJECT • -->
+				<article class="projectBox">
+					<!-- • HEAD OF PROJECT • -->
+					<div class="topOfProject">
+						<img src="../img/project-1.png">
+						<hr>
+						<div class="projectSite">
+							<h3>E-Ticaret</h3>
+							<h4>www.sonsuztransfer.com.tr</h4>
+						</div>
+					</div>
+					<!-- • DESCRIPTION OF PROJECT • -->
+					<h4 class="projectSiteName">www.sonsuztransfer.com.tr</h4>
+					<p class="projectDetail">E-Ticaret projemi, almak isteyen şahısa göre uyarlayıp sorunsuz teslim ettim. Tüm platformlarda kayıpsız gözükmektedir.</p>
+					<!-- • DATE OF PROJECT • -->
+					<p class="projectDate"><b>Proje Süresi:</b> <i>10 Gün</i><br><b>Proje Tarihi:</b> <i>18.04.2021</i></p>
+				</article>
+				<article class="projectBox">
+					<div class="topOfProject">
+						<img src="../img/project-2.png">
+						<hr>
+						<div class="projectSite">
+							<h3>Rehber</h3>
+							<h4>www.birdunyarehber.com</h4>
+						</div>
+					</div>
+					<h4 class="projectSiteName">www.birdunyarehber.com</h4>
+					<p class="projectDetail">Rehber - bilgi sitesi projemi, almak isteyen şahısa göre uyarlayıp sorunsuz teslim ettim. Tüm platformlarda kayıpsız gözükmektedir.</p>
+					<p class="projectDate"><b>Proje Süresi:</b> <i>6 Gün</i><br><b>Proje Tarihi:</b> <i>07.11.2020</i></p>
+				</article>
+				<article class="projectBox">
+					<div class="topOfProject">
+						<img src="../img/project-3.png">
+						<hr>
+						<div class="projectSite">
+							<h3>Forum</h3>
+							<h4>www.soniletisim.net</h4>
+						</div>
+					</div>
+					<h4 class="projectSiteName">www.soniletisim.net</h4>
+					<p class="projectDetail">Forum projemi, almak isteyen şahıslara göre uyarlayıp sorunsuz teslim ettim. Tüm platformlarda kayıpsız gözükmektedir.</p>
+					<p class="projectDate"><b>Proje Süresi:</b> <i>13 Gün</i><br><b>Proje Tarihi:</b> <i>21.08.2020</i></p>
+				</article>
+				<article class="projectBox">
+					<div class="topOfProject">
+						<img src="../img/project-4.png">
+						<hr>
+						<div class="projectSite">
+							<h3>Kurumsal</h3>
+							<h4>www.debirlik.com</h4>
+						</div>
+					</div>
+					<h4 class="projectSiteName">www.debirlik.com</h4>
+					<p class="projectDetail">Kurumsal site projemi, almak isteyen kuruma göre uyarlayıp sorunsuz teslim ettim. Tüm platformlarda kayıpsız gözükmektedir.</p>
+					<p class="projectDate"><b>Proje Süresi:</b> <i>15 Gün</i><br><b>Proje Tarihi:</b> <i>16.02.2020</i></p>
+				</article>
+				<article class="projectBox">
+					<div class="topOfProject">
+						<img src="../img/project-5.png">
+						<hr>
+						<div class="projectSite">
+							<h3>Eğitim</h3>
+							<h4>www.forevercode.com</h4>
+						</div>
+					</div>
+					<h4 class="projectSiteName">www.forevercode.com</h4>
+					<p class="projectDetail">Eğitimsel site projemi, almak isteyen şahısa göre uyarlayıp sorunsuz teslim ettim. Tüm platformlarda kayıpsız gözükmektedir.</p>
+					<p class="projectDate"><b>Proje Süresi:</b> <i>11 Gün</i><br><b>Proje Tarihi:</b> <i>02.11.2019</i></p>
+				</article>
+			</section>
+			<!-- • END OF ALL PROJECTS BOX • -->
+		</section>
+		<!-- • ••• • -->
+		<!-- • ••• • -->
+		<!-- • FOOTER • -->
+		<footer class="footerOfPage">
+			<!-- • FIRST SECTION OF FOOTER • -->
+			<nav class="navInFooter">
+				<h3>Menüler</h3>
+				<ul>
+					<li><a href="index.html">Anasayfa</a></li>
+					<li><a href="projects.html">Projelerim</a></li>
+					<li><a href="career.html">Kariyerim</a></li>
+					<li><a href="about.html">Hakkımda</a></li>
+				</ul>
+			</nav>
+			<!-- • SECOND SECTION OF FOOTER • -->
+			<nav class="footerSocialMedia">
+				<h3>İletişimde Kalın</h3>
+				<ul>
+					<li><a target="_blank" href="https://twitter.com/benmertyz"><i class="fab fa-twitter-square fa-lg"></i></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/mert.ylmzlr/"><i class="fab fa-instagram-square fa-lg"></i></a></li>
+					<li><a target="_blank" href="https://github.com/iManlyy"><i class="fab fa-github-square fa-lg"></i></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/mert-yılmaz-b13090211"><i class="fab fa-linkedin fa-lg"></i></a></li>
+				</ul>
+			</nav>
+		</footer>
+		<!-- • /FOOTER • -->
+		<!-- • ••• • -->
+		<!-- • ••• • -->
+		<!-- • DESIGNED PERSON INFORMATION • -->
+		<div class="designedOfPage">
+			<i class="fas fa-info"></i> Designed By Mert Yılmaz
+		</div>
+		<!-- • END OF DESIGNED PERSON INFORMATION • -->
+	</div>
+	<!-- • END OF THE PAGE • -->
+	<!-- • ••• • -->
+	<!-- • ••• • -->
+	<script type="text/javascript">
+		/* • For Dropdown Menu • */
+		function gizleGoster(ID) {
+  var secilenID = document.getElementById(ID);
+  if (secilenID.style.display == "none") {
+    secilenID.style.display = "block";
+  } else {
+    secilenID.style.display = "none";
+  }
+}
+		/* • For Hide/Show • */
+		function gizle(ID) {
+			var z = document.getElementById(ID);
+			z.style.display = "none";
+		}
+		function goster(ID) {
+			var x = document.getElementById(ID);
+			x.style.display = "block";
+		}
+		/* • For Back To Top Button • */
+		var mybutton = document.getElementById("backTopButton");
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+		/* • JAVASCRIPT CODES FOR LIST VIEW • */
+		function viewActiveL() {
+			let Etiket = document.getElementById("viewL");
+			Etiket.classList.add('viewActive');
+			let Etiket2 = document.getElementById("viewG");
+			Etiket2.classList.remove('viewActive');
+			var a = document.querySelectorAll(".allProjects");
+			for (var i = 0; i < a.length; i++) {
+   			a[i].classList.add('allProjectsForL');
+    		a[i].classList.remove('allProjects');
+			}
+			var b = document.querySelectorAll(".projectBox");
+			for (var i = 0; i < b.length; i++) {
+   			b[i].classList.add('projectBoxForL');
+    		b[i].classList.remove('projectBox');
+			}
+			var c = document.querySelectorAll(".topOfProject");
+			for (var i = 0; i < c.length; i++) {
+   			c[i].classList.add('topOfProjectForL');
+    		c[i].classList.remove('topOfProject');
+			}
+			var d = document.querySelectorAll(".projectSite h4");
+			for (var i = 0; i < d.length; i++) {
+   			d[i].style.display = 'block';
+			}
+			var e = document.querySelectorAll(".projectBoxForL .projectSiteName");
+			for (var i = 0; i < e.length; i++) {
+   			e[i].style.display = 'none';
+			}
+		}
+		/* • JAVASCRIPT CODES FOR GALLERY VIEW • */
+		function viewActiveG() {
+			let Etiket = document.getElementById("viewG");
+			Etiket.classList.add('viewActive');
+			let Etiket2 = document.getElementById("viewL");
+			Etiket2.classList.remove('viewActive');
+			var a = document.querySelectorAll(".allProjectsForL");
+			for (var i = 0; i < a.length; i++) {
+   			a[i].classList.add('allProjects');
+    		a[i].classList.remove('allProjectsForL');
+			}
+			var b = document.querySelectorAll(".projectBoxForL");
+			for (var i = 0; i < b.length; i++) {
+   			b[i].classList.add('projectBox');
+    		b[i].classList.remove('projectBoxForL');
+			}
+			var c = document.querySelectorAll(".topOfProjectForL");
+			for (var i = 0; i < c.length; i++) {
+   			c[i].classList.add('topOfProject');
+    		c[i].classList.remove('topOfProjectForL');
+			}
+			var d = document.querySelectorAll(".projectSite h4");
+			for (var i = 0; i < d.length; i++) {
+   			d[i].style.display = 'none';
+			}
+			var e = document.querySelectorAll(".projectBox .projectSiteName");
+			for (var i = 0; i < e.length; i++) {
+   			e[i].style.display = 'block';
+			}
+		}
+	</script>
+</body>
+</html>

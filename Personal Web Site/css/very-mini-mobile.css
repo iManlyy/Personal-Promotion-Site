@@ -1,0 +1,67 @@
+#backTopButton {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+}
+.headerOfPage:hover .ownersNameBorder {
+    margin-top: 10px;
+    width: 130px;
+}
+.headerLeftBorder {
+	display: none;
+}
+.ownersName a {
+	font-size: 19px;
+}
+.ownersNameBorder {
+	height: 2px;
+	width: 130px;
+}
+.navOfContent ul {
+	padding: 3px;
+}
+.navOfContent ul li {
+	margin-right: 10px;
+	padding: 3px;
+}
+.projectPlace {
+	margin-left: 0;
+}
+.projectPlaceItems {
+	padding: 3px;
+}
+.projectPlaceItems img {
+	margin-right: 5px;
+	width: 90px;
+}
+.projectItemsText {
+	font-size: 11px;
+}
+.careerPlace {
+	margin-left: 0;
+}
+.aboutPlace {
+	margin-left: 0;
+}
+.contentOfPage {
+	margin: 10px 0 0 0;
+}
+.projectBox {
+	margin: 0 0 10px 0;
+}
+.topOfProjectForL img {
+	width: 90px;
+	margin-right: 5px;
+}
+.projectSite h3 {
+	font-size: 14px;
+}
+.projectSite h4 {
+	font-size: 11px;
+}
+.thankSection {
+	margin: 0 0 0 2px;
+}
+.contentOfPageA {
+	margin: 0 0 0 2px;
+}

@@ -1,0 +1,133 @@
+.contentOfPage {
+	margin: 10px 0 0 20px;
+}
+.viewType {
+	user-select: none;
+	margin-bottom: 15px;
+}
+.viewType h3 {
+	border-left: 2px solid #2378EB;
+	border-radius: 1px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.viewType button {
+	background-color: white;
+	border: 1px solid #d5d5d5;
+	margin: 0;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.viewType button:hover {
+	color: #2378EB;
+	transition: 0.3s;
+}
+.viewActive {
+	background-color: #172333 !important;
+	border: 1px solid #2378EB !important;
+	color: white;
+}
+.viewGallery {
+	margin-right: -2.5px !important;
+	border-radius: 5px 0 0 5px;
+}
+.viewList {
+	margin-left: -2.5px !important;
+	border-radius: 0 5px 5px 0;
+}
+.allProjects {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.allProjectsForL {
+	display: flex;
+	flex-direction: column;
+}
+.projectBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: 1px solid #d5d5d5;
+	border-radius: 10px;
+	padding: 10px;
+	width: 300px;
+	margin: 0 10px 10px 0;
+}
+.projectBoxForL {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	border: 1px solid #d5d5d5;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+.projectBox:hover {
+	border: 1px solid #2378EB;
+    box-shadow: 0 0 2px #2378EB;
+    transition: 0.3s;
+}
+.projectBoxForL:hover {
+	border: 1px solid #2378EB;
+    box-shadow: 0 0 2px #2378EB;
+    transition: 0.3s;
+}
+.projectBoxForL:hover .projectSite h4 {
+	border-top: 2px solid #2378EB;
+	transition: 0.3s;
+}
+.projectSiteName {
+	margin: 10px 0 0 0;
+}
+.projectBox p {
+	margin: 5px 0 0 0;
+}
+.projectBoxForL p {
+	margin: 0 0 0 10px;
+}
+.topOfProject {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.topOfProjectForL {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.topOfProject img {
+	width: 130px;
+}
+.topOfProjectForL img {
+	width: 130px;
+}
+.topOfProject hr {
+	width: 2px;
+    border: 0;
+    background-color: #2378EB;
+    border-radius: 1px;
+    height: 80px;
+    margin: 0 10px 0 10px;
+}
+.topOfProjectForL hr {
+	width: 2px;
+    border: 0;
+    background-color: #2378EB;
+    border-radius: 1px;
+    height: 80px;
+    margin: 0 10px 0 10px;
+}
+.projectSite h4 {
+	border-top: 2px solid #ddd;
+	border-radius: 1px;
+	padding: 5px 0 0 0;
+	margin: 5px 0 0 0;
+	display: none;
+}
+.projectBoxForL .projectDetail {
+	width: 30%;
+}
